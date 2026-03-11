@@ -15,7 +15,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
 ::: {.content-section}
 
-## Econ 566 — Graduate Methods {.section-heading}
+## Econ 566 — Environmental Economics {.section-heading}
 
 **Instructor: Dana C. Andersen**
 

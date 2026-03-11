@@ -24,6 +24,9 @@ website:
       - icon: mortarboard-fill
         href: "https://scholar.google.com/citations?user=3VG_EFEAAAAJ&hl=en"
         aria-label: Google Scholar
+      - icon: linkedin
+        href: "https://www.linkedin.com/in/dana-andersen"
+        aria-label: LinkedIn
   page-footer:
     center: "© 2026 Dana C. Andersen &nbsp;·&nbsp; Department of Economics, University of Alberta"
     background: "#1b2a3b"

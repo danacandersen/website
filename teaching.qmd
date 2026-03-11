@@ -27,8 +27,8 @@ Course materials — slides, problem sets, and announcements — are available t
 
   <div class="course-card">
     <div class="course-code">Econ 566</div>
-    <div class="course-name">Graduate Methods</div>
-    <div class="course-desc">Graduate-level mathematics and statistics for economists.</div>
+    <div class="course-name">Environmental Economics</div>
+    <div class="course-desc">Graduate-level environmental economics.</div>
   </div>
 
 </div>
