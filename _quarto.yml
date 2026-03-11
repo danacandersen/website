@@ -31,6 +31,7 @@ website:
 
 format:
   html:
-    theme: [flatly, styles.css]
+    theme: flatly
+    css: styles.css
     toc: false
     page-layout: full
