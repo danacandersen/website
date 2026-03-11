@@ -7,8 +7,7 @@ title: ""
 ```{=html}
 <div class="about-grid">
   <div class="about-photo">
-    <!-- Replace div below with: <img src="assets/profile.jpg" alt="Dana C. Andersen"> -->
-    <div class="photo-placeholder">Photo<br>coming<br>soon</div>
+    <img src="assets/profile.jpg" alt="Dana C. Andersen">
   </div>
   <div class="about-bio">
     <h1 style="font-family:'Lora',serif;font-size:1.9rem;font-weight:600;color:#1b2a3b;margin-bottom:0.2rem;">Dana C. Andersen</h1>
