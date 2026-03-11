@@ -1,1 +1,1 @@
-Sitemap: https://danacandersen.github.io/website/sitemap.xml
+Sitemap: https://danaandersen.com/sitemap.xml
