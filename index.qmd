@@ -2,6 +2,10 @@
 title: ""
 ---
 
+```{=html}
+<div class="mountain-banner"></div>
+```
+
 ::: {.content-section}
 
 ```{=html}
