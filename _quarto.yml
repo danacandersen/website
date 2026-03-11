@@ -1,0 +1,36 @@
+project:
+  type: website
+  output-dir: _site
+
+website:
+  title: "Dana C. Andersen"
+  favicon: assets/favicon.png
+  navbar:
+    background: "#1b2a3b"
+    foreground: "white"
+    left:
+      - href: index.qmd
+        text: Home
+      - href: research.qmd
+        text: Research
+      - href: teaching.qmd
+        text: Teaching
+      - href: cv.qmd
+        text: CV
+    right:
+      - icon: envelope-fill
+        href: "mailto:dca@ualberta.ca"
+        aria-label: Email
+      - icon: mortarboard-fill
+        href: "https://scholar.google.com/citations?user=3VG_EFEAAAAJ&hl=en"
+        aria-label: Google Scholar
+  page-footer:
+    center: "© 2026 Dana C. Andersen &nbsp;·&nbsp; Department of Economics, University of Alberta"
+    background: "#1b2a3b"
+    foreground: "white"
+
+format:
+  html:
+    theme: [flatly, styles.css]
+    toc: false
+    page-layout: full

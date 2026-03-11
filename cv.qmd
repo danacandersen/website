@@ -1,0 +1,42 @@
+---
+title: ""
+---
+
+::: {.content-section}
+
+# Curriculum Vitae {.section-heading}
+
+```{=html}
+<p>
+  <a href="cv/andersen_cv.pdf" target="_blank" class="paper-tag tag-pdf" style="font-size:0.85rem;padding:0.4rem 1rem;">
+    ↓ Download CV (PDF)
+  </a>
+</p>
+```
+
+## Positions {.section-heading}
+
+**Associate Professor** — Department of Economics, University of Alberta *(current)*
+
+## Education {.section-heading}
+
+**PhD, Economics** — University of Maryland
+
+## Research Fields {.section-heading}
+
+Environmental and Resource Economics · Public Economics · Sustainable Development
+
+## Selected Publications {.section-heading}
+
+See the [Research](research.qmd) page for a full list of publications and working papers.
+
+## Contact {.section-heading}
+
+Department of Economics
+9-23 HM Tory Building
+University of Alberta
+Edmonton, AB T6G 2H4
+
+[dca@ualberta.ca](mailto:dca@ualberta.ca)
+
+:::

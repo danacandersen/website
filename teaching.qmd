@@ -1,0 +1,37 @@
+---
+title: ""
+---
+
+::: {.content-section}
+
+# Teaching {.section-heading}
+
+I teach undergraduate and graduate courses in environmental economics, natural resource economics, and quantitative methods at the University of Alberta.
+
+Course materials — slides, problem sets, and announcements — are available to enrolled students via the [student portal](students/index.html).
+
+```{=html}
+<div class="course-grid" style="margin-top:2rem;">
+
+  <div class="course-card">
+    <div class="course-code">Econ 365</div>
+    <div class="course-name">Natural Resource Economics</div>
+    <div class="course-desc">Economics of non-renewable and renewable resources, extraction theory, resource policy, and sustainability.</div>
+  </div>
+
+  <div class="course-card">
+    <div class="course-code">Econ 467</div>
+    <div class="course-name">Environmental Economics</div>
+    <div class="course-desc">Market failures, externalities, environmental regulation, cost-benefit analysis, and climate policy.</div>
+  </div>
+
+  <div class="course-card">
+    <div class="course-code">Econ 566</div>
+    <div class="course-name">Graduate Methods</div>
+    <div class="course-desc">Graduate-level mathematics and statistics for economists.</div>
+  </div>
+
+</div>
+```
+
+:::

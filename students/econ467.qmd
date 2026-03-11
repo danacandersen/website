@@ -1,0 +1,58 @@
+---
+title: ""
+---
+
+```{=html}
+<script>
+const STUDENT_PASSWORD = "econ2026";
+document.addEventListener('DOMContentLoaded', function() {
+  if (sessionStorage.getItem('student_auth') !== STUDENT_PASSWORD) {
+    window.location.href = 'index.html';
+  }
+});
+</script>
+```
+
+::: {.content-section}
+
+## Econ 467 — Environmental Economics {.section-heading}
+
+**Winter 2026 &nbsp;·&nbsp; Instructor: Dana C. Andersen**
+
+Slides are available as PDF for download and as interactive HTML for in-class viewing.
+
+---
+
+### Lecture Slides {.section-heading}
+
+*Slides will be posted here as the course progresses.*
+
+<!-- Template for adding slides:
+
+<ul class="paper-list">
+
+  <li class="paper-item">
+    <div class="paper-title">Lecture 01 — Introduction</div>
+    <div class="paper-links">
+      <a href="slides/econ467_01.pdf" class="paper-tag tag-pdf" target="_blank">PDF</a>
+      <a href="slides/econ467_01.html" class="paper-tag tag-journal" target="_blank">HTML</a>
+    </div>
+  </li>
+
+</ul>
+
+-->
+
+---
+
+### Problem Sets {.section-heading}
+
+*Problem sets will be posted here.*
+
+---
+
+### Announcements {.section-heading}
+
+*Check this page for updates throughout the semester.*
+
+:::

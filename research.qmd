@@ -1,0 +1,118 @@
+---
+title: ""
+---
+
+::: {.content-section}
+
+# Research {.section-heading}
+
+My research examines how firms and individuals respond to environmental regulations, credit market conditions, and fiscal policy — and the implications of these responses for environmental quality, productivity, and economic welfare. A secondary strand of work addresses health, human capital, and political economy.
+
+:::
+
+::: {.content-section}
+
+## Published Papers {.section-heading}
+
+```{=html}
+<ul class="paper-list">
+
+  <li class="paper-item">
+    <div class="paper-title">Default Risk, Productivity, and the Environment: Theory and Evidence from U.S. Manufacturing</div>
+    <div class="paper-meta"><em>Environmental and Resource Economics</em>, 2020, 75(4): 677–710</div>
+  </li>
+
+  <li class="paper-item">
+    <div class="paper-title">Do Tax Cuts Encourage Rent Seeking by Top Corporate Executives? Theory and Evidence</div>
+    <div class="paper-authors">with Ramón López</div>
+    <div class="paper-meta"><em>Contemporary Economic Policy</em>, 2019, 37(2): 219–235 <span class="paper-tag tag-lead">Lead Article</span></div>
+  </li>
+
+  <li class="paper-item">
+    <div class="paper-title">The Role of Adolescent Health in Adult SES Outcomes</div>
+    <div class="paper-authors">with Pinar Gunes</div>
+    <div class="paper-meta"><em>B.E. Journal of Economic Analysis &amp; Policy</em>, 2018, 18(2): 1–16 <span class="paper-tag tag-lead">Lead Article</span></div>
+  </li>
+
+  <li class="paper-item">
+    <div class="paper-title">Accounting for Loss of Variety and Factor Reallocations in the Welfare Cost of Regulations</div>
+    <div class="paper-meta"><em>Journal of Environmental Economics and Management</em>, 2018, 88: 69–94</div>
+  </li>
+
+  <li class="paper-item">
+    <div class="paper-title">Do Credit Constraints Favor Dirty Production? Theory and Plant-Level Evidence</div>
+    <div class="paper-meta"><em>Journal of Environmental Economics and Management</em>, 2017, 84: 189–208</div>
+  </li>
+
+  <li class="paper-item">
+    <div class="paper-title">Credit Constraints, Technology Upgrading, and the Environment</div>
+    <div class="paper-meta"><em>Journal of the Association of Environmental and Resource Economists</em>, 2016, 3(2): 283–319</div>
+  </li>
+
+</ul>
+```
+
+## Book Chapters {.section-heading}
+
+```{=html}
+<ul class="paper-list">
+
+  <li class="paper-item">
+    <div class="paper-title">Are Household Borrowing Constraints Bad for the Environment? Theory and Cross-Country Evidence</div>
+    <div class="paper-meta">In Ruth Matthias (Ed.), Edward Elgar Publishing. <em>Accepted.</em></div>
+  </li>
+
+</ul>
+```
+
+## Working Papers {.section-heading}
+
+```{=html}
+<ul class="paper-list">
+
+  <li class="paper-item">
+    <div class="paper-title">The Environmental Consequences of Corporate Tax Cuts</div>
+    <div class="paper-authors">with Eric Ohrn and Mark Curtis</div>
+  </li>
+
+  <li class="paper-item">
+    <div class="paper-title">Air Pollution, Worker Productivity, and Adaptation: Evidence from Payroll Data of Canadian Tree Planters</div>
+    <div class="paper-authors">with Liyuan Xuan</div>
+  </li>
+
+  <li class="paper-item">
+    <div class="paper-title">Environmental Regulations and Labor Markets: Evidence from the Clean Air Act</div>
+  </li>
+
+  <li class="paper-item">
+    <div class="paper-title">Optimal Corrective Taxes in the Context of Monopolistic Competition and Firm Heterogeneity</div>
+  </li>
+
+  <li class="paper-item">
+    <div class="paper-title">Local Labor Market Effects of Environmental Regulations in Canada</div>
+    <div class="paper-authors">with Joseph Marchand</div>
+  </li>
+
+  <li class="paper-item">
+    <div class="paper-title">The Role of Carbon Levies on Resource Rents: Evidence from Oil and Gas Land Auctions in Western Canada</div>
+    <div class="paper-authors">with Long Zhao</div>
+  </li>
+
+  <li class="paper-item">
+    <div class="paper-title">Unemployment and Crime in Turkey</div>
+    <div class="paper-authors">with Pinar Gunes</div>
+  </li>
+
+  <li class="paper-item">
+    <div class="paper-title">Birth-Order Effects in the Developed and Developing World: Evidence from International Test Scores</div>
+    <div class="paper-authors">with Pinar Gunes</div>
+  </li>
+
+  <li class="paper-item">
+    <div class="paper-title">Natural Resources and Persistent Political Institutions</div>
+  </li>
+
+</ul>
+```
+
+:::

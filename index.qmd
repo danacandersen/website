@@ -1,0 +1,80 @@
+---
+title: ""
+---
+
+```{=html}
+<div class="hero">
+  <div>
+    <div class="hero-name">Dana C. Andersen</div>
+    <div class="hero-title">Associate Professor &nbsp;·&nbsp; Department of Economics &nbsp;·&nbsp; University of Alberta</div>
+    <div class="hero-links">
+      <a href="research.qmd">Research</a>
+      <a href="cv/andersen_cv.pdf" target="_blank">CV</a>
+      <a href="https://scholar.google.com/citations?user=3VG_EFEAAAAJ&hl=en" target="_blank">Google Scholar</a>
+      <a href="mailto:dca@ualberta.ca">Contact</a>
+    </div>
+  </div>
+</div>
+```
+
+::: {.content-section}
+
+```{=html}
+<div class="about-grid">
+  <div class="about-photo">
+    <!-- Replace with: <img src="assets/profile.jpg" alt="Dana C. Andersen"> -->
+    <div class="photo-placeholder">Photo<br>coming<br>soon</div>
+    <div class="contact-line" style="margin-top:1rem;">
+      <a href="mailto:dca@ualberta.ca">dca@ualberta.ca</a><br>
+      9-23 HM Tory Building<br>
+      University of Alberta<br>
+      Edmonton, AB T6G 2H4
+    </div>
+  </div>
+  <div class="about-bio">
+```
+
+I am an Associate Professor in the [Department of Economics](https://www.ualberta.ca/arts/departments/economics/index.html) at the University of Alberta. I received my PhD from the University of Maryland.
+
+My research interests are in **environmental and resource economics**, **public economics**, and **sustainable development**. Much of my work examines how firms respond to environmental regulations, credit constraints, and tax policy — and the consequences of these responses for environmental outcomes, productivity, and labor markets.
+
+```{=html}
+  </div>
+</div>
+```
+
+:::
+
+::: {.content-section}
+
+## Selected Publications {.section-heading}
+
+```{=html}
+<ul class="paper-list">
+
+  <li class="paper-item">
+    <div class="paper-title">Default Risk, Productivity, and the Environment: Theory and Evidence from U.S. Manufacturing</div>
+    <div class="paper-meta"><em>Environmental and Resource Economics</em>, 2020, 75(4): 677–710</div>
+  </li>
+
+  <li class="paper-item">
+    <div class="paper-title">Accounting for Loss of Variety and Factor Reallocations in the Welfare Cost of Regulations</div>
+    <div class="paper-meta"><em>Journal of Environmental Economics and Management</em>, 2018, 88: 69–94</div>
+  </li>
+
+  <li class="paper-item">
+    <div class="paper-title">Do Credit Constraints Favor Dirty Production? Theory and Plant-Level Evidence</div>
+    <div class="paper-meta"><em>Journal of Environmental Economics and Management</em>, 2017, 84: 189–208</div>
+  </li>
+
+  <li class="paper-item">
+    <div class="paper-title">Credit Constraints, Technology Upgrading, and the Environment</div>
+    <div class="paper-meta"><em>Journal of the Association of Environmental and Resource Economists</em>, 2016, 3(2): 283–319</div>
+  </li>
+
+</ul>
+
+<p style="margin-top:0.5rem;"><a href="research.qmd" style="color:#2d6a8a;font-size:0.9rem;">View all publications →</a></p>
+```
+
+:::
