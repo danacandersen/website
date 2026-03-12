@@ -1,6 +1,8 @@
 project:
   type: website
   output-dir: _site
+  resources:
+    - "google79d402ce5c2ddaf0.html"
 
 website:
   title: "Dana C. Andersen"
