@@ -3,10 +3,12 @@ title: ""
 ---
 
 ```{=html}
+<!-- Password for this course: grad566
+     To change: update "grad566" below AND in students/index.qmd -->
 <script>
-const STUDENT_PASSWORD = "econ2026";
+const COURSE_PASSWORD = "grad566";
 document.addEventListener('DOMContentLoaded', function() {
-  if (sessionStorage.getItem('student_auth') !== STUDENT_PASSWORD) {
+  if (sessionStorage.getItem('econ566_auth') !== COURSE_PASSWORD) {
     window.location.href = 'index.html';
   }
 });

@@ -4,31 +4,38 @@ title: ""
 
 ```{=html}
 <!-- ============================================================
-     STUDENT PORTAL PASSWORD
-     Change STUDENT_PASSWORD below at the start of each semester.
-     Tell students this password on the first day of class.
+     STUDENT PORTAL PASSWORDS (one per course)
+     Econ 467 — Environmental Economics:    econ2026
+     Econ 365 — Natural Resource Economics: nre365
+     Econ 566 — Grad Environmental:         grad566
+     Tell students their course password on the first day of class.
+     To change a password: update it here AND in the matching econXXX.qmd file.
      ============================================================ -->
 <script>
-const STUDENT_PASSWORD = "econ2026";
+const COURSE_PASSWORDS = {
+  "econ2026": { course: "econ467", url: "econ467.html", label: "Econ 467 — Environmental Economics" },
+  "nre365":   { course: "econ365", url: "econ365.html", label: "Econ 365 — Natural Resource Economics" },
+  "grad566":  { course: "econ566", url: "econ566.html", label: "Econ 566 — Graduate Environmental Economics" }
+};
 
 function checkPassword() {
   const input = document.getElementById('pw-input').value.trim().toLowerCase();
-  if (input === STUDENT_PASSWORD) {
-    sessionStorage.setItem('student_auth', STUDENT_PASSWORD);
-    showPortal();
+  const match = COURSE_PASSWORDS[input];
+  if (match) {
+    sessionStorage.setItem(match.course + '_auth', input);
+    window.location.href = match.url;
   } else {
     document.getElementById('pw-error').style.display = 'block';
   }
 }
 
-function showPortal() {
-  document.getElementById('password-gate').style.display = 'none';
-  document.getElementById('student-portal').style.display = 'block';
-}
-
 document.addEventListener('DOMContentLoaded', function() {
-  if (sessionStorage.getItem('student_auth') === STUDENT_PASSWORD) {
-    showPortal();
+  // Auto-redirect if already authenticated for any course
+  for (const [pwd, info] of Object.entries(COURSE_PASSWORDS)) {
+    if (sessionStorage.getItem(info.course + '_auth') === pwd) {
+      window.location.href = info.url;
+      return;
+    }
   }
 });
 
@@ -38,7 +45,6 @@ document.addEventListener('keydown', function(e) {
 </script>
 
 <div class="content-section">
-
 <div id="password-gate" class="password-gate">
   <h2>Student Portal</h2>
   <p>Enter the course password provided on the first day of class.</p>
@@ -46,36 +52,5 @@ document.addEventListener('keydown', function(e) {
   <button onclick="checkPassword()">Enter</button>
   <div id="pw-error" class="error">Incorrect password. Please try again.</div>
 </div>
-
-<div id="student-portal" style="display:none;">
-  <h2 class="section-heading">Student Portal</h2>
-  <p>Select your course below to access slides, problem sets, and announcements.</p>
-
-  <div class="course-grid">
-
-    <div class="course-card">
-      <div class="course-code">Econ 365</div>
-      <div class="course-name">Natural Resource Economics</div>
-      <div class="course-desc" style="margin-bottom:1rem;">Winter 2026</div>
-      <a href="econ365.html" class="paper-tag tag-pdf" style="font-size:0.82rem;padding:0.35rem 0.9rem;">Go to course →</a>
-    </div>
-
-    <div class="course-card">
-      <div class="course-code">Econ 467</div>
-      <div class="course-name">Environmental Economics</div>
-      <div class="course-desc" style="margin-bottom:1rem;">Winter 2026</div>
-      <a href="econ467.html" class="paper-tag tag-pdf" style="font-size:0.82rem;padding:0.35rem 0.9rem;">Go to course →</a>
-    </div>
-
-    <div class="course-card">
-      <div class="course-code">Econ 566</div>
-      <div class="course-name">Graduate Methods</div>
-      <div class="course-desc" style="margin-bottom:1rem;">As scheduled</div>
-      <a href="econ566.html" class="paper-tag tag-pdf" style="font-size:0.82rem;padding:0.35rem 0.9rem;">Go to course →</a>
-    </div>
-
-  </div>
-</div>
-
 </div>
 ```

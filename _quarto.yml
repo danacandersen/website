@@ -3,6 +3,7 @@ project:
   output-dir: _site
   resources:
     - "googlef299300066777e4f.html"
+    - "students/slides/**"
 
 website:
   title: "Dana C. Andersen"
