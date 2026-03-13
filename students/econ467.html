@@ -142,10 +142,12 @@ ul.task-list li input[type="checkbox"] {
 
 
 
+<!-- Password for this course: econ2026
+     To change: update "econ2026" below AND in students/index.qmd -->
 <script>
-const STUDENT_PASSWORD = "econ2026";
+const COURSE_PASSWORD = "econ2026";
 document.addEventListener('DOMContentLoaded', function() {
-  if (sessionStorage.getItem('student_auth') !== STUDENT_PASSWORD) {
+  if (sessionStorage.getItem('econ467_auth') !== COURSE_PASSWORD) {
     window.location.href = 'index.html';
   }
 });
@@ -153,184 +155,187 @@ document.addEventListener('DOMContentLoaded', function() {
 <section id="econ-467-environmental-economics" class="level2 section-heading content-section">
 <h2 class="section-heading anchored" data-anchor-id="econ-467-environmental-economics">Econ 467 — Environmental Economics</h2>
 <p><strong>Winter 2026 &nbsp;·&nbsp; Instructor: Dana C. Andersen</strong></p>
-<p>Slides are available as PDF for download and as interactive HTML for in-class viewing.</p>
 <hr>
+<section id="syllabus" class="level3 section-heading">
+<h3 class="section-heading anchored" data-anchor-id="syllabus">Syllabus</h3>
+<!-- Drop econ467_syllabus_2026w.pdf into website/assets/syllabi/ then uncomment:
+<ul class="paper-list">
+  <li class="paper-item">
+    <div class="paper-title">Course Syllabus — Winter 2026</div>
+    <div class="paper-links">
+      <a href="../assets/syllabi/econ467_syllabus_2026w.pdf" class="paper-tag tag-pdf" target="_blank">PDF</a>
+    </div>
+  </li>
+</ul>
+-->
+<p><em>Syllabus coming soon.</em></p>
+<hr>
+</section>
 <section id="lecture-slides" class="level3 section-heading">
 <h3 class="section-heading anchored" data-anchor-id="lecture-slides">Lecture Slides</h3>
-<!-- RELEASE CONTROL: To hide a slide, wrap its <li>...</li> block in an HTML comment.
-     To release it, remove the comment markers. Tell Claude which slides to release. -->
+<p>Slides open in a new browser tab. Use arrow keys to navigate.</p>
+<!-- RELEASE CONTROL
+     Slides 1–7 are currently visible.
+     To release more: move <li> entries out of the HTML comment block below.
+     To hide a slide: move its <li> entry into the comment block. -->
 <ul class="paper-list">
-<li class="paper-item">
-<div class="paper-title">
-Lecture 01 — Introduction to Environmental Economics
-</div>
-<div class="paper-links">
-<pre><code>  &lt;a href="slides/econ467/01-slides-intro.html" class="paper-tag tag-journal" target="_blank"&gt;HTML&lt;/a&gt;
-&lt;/div&gt;</code></pre>
-</div></li>
-<li class="paper-item">
-<div class="paper-title">
-Lecture 02 — Market Failures
-</div>
-<div class="paper-links">
-<pre><code>  &lt;a href="slides/econ467/02-slides-market-failures.html" class="paper-tag tag-journal" target="_blank"&gt;HTML&lt;/a&gt;
-&lt;/div&gt;</code></pre>
-</div></li>
-<li class="paper-item">
-<div class="paper-title">
-Lecture 03 — Coasean Bargaining
-</div>
-<div class="paper-links">
-<pre><code>  &lt;a href="slides/econ467/03-slides-coase.html" class="paper-tag tag-journal" target="_blank"&gt;HTML&lt;/a&gt;
-&lt;/div&gt;</code></pre>
-</div></li>
-<li class="paper-item">
-<div class="paper-title">
-Lecture 04 — Standards
-</div>
-<div class="paper-links">
-<pre><code>  &lt;a href="slides/econ467/04-slides-standards.html" class="paper-tag tag-journal" target="_blank"&gt;HTML&lt;/a&gt;
-&lt;/div&gt;</code></pre>
-</div></li>
-<li class="paper-item">
-<div class="paper-title">
-Lecture 05 — Taxes
-</div>
-<div class="paper-links">
-<pre><code>  &lt;a href="slides/econ467/05-slides-taxes.html" class="paper-tag tag-journal" target="_blank"&gt;HTML&lt;/a&gt;
-&lt;/div&gt;</code></pre>
-</div></li>
-<li class="paper-item">
-<div class="paper-title">
-Lecture 06 — Tradable Permits
-</div>
-<div class="paper-links">
-<pre><code>  &lt;a href="slides/econ467/06-slides-permits.html" class="paper-tag tag-journal" target="_blank"&gt;HTML&lt;/a&gt;
-&lt;/div&gt;</code></pre>
-</div></li>
-<li class="paper-item">
-<div class="paper-title">
-Lecture 07 — Policymaking Under Uncertainty
-</div>
-<div class="paper-links">
-<pre><code>  &lt;a href="slides/econ467/07-slides-uncertainty.html" class="paper-tag tag-journal" target="_blank"&gt;HTML&lt;/a&gt;
-&lt;/div&gt;</code></pre>
-</div></li>
-<li class="paper-item">
-<div class="paper-title">
-Lecture 08 — Multiple Market Failures and Second-Best Policies
-</div>
-<div class="paper-links">
-<pre><code>  &lt;a href="slides/econ467/08-slides-second-best.html" class="paper-tag tag-journal" target="_blank"&gt;HTML&lt;/a&gt;
-&lt;/div&gt;</code></pre>
-</div></li>
-<li class="paper-item">
-<div class="paper-title">
-Lecture 09 — Carbon Tariffs
-</div>
-<div class="paper-links">
-<pre><code>  &lt;a href="slides/econ467/09-slides-carbon-tariffs.html" class="paper-tag tag-journal" target="_blank"&gt;HTML&lt;/a&gt;
-&lt;/div&gt;</code></pre>
-</div></li>
-<li class="paper-item">
-<div class="paper-title">
-Lecture 10 — Discounting and Cost-Benefit Analysis
-</div>
-<div class="paper-links">
-<pre><code>  &lt;a href="slides/econ467/10-slides-discounting.html" class="paper-tag tag-journal" target="_blank"&gt;HTML&lt;/a&gt;
-&lt;/div&gt;</code></pre>
-</div></li>
-<li class="paper-item">
-<div class="paper-title">
-Lecture 11 — Travel Cost Method
-</div>
-<div class="paper-links">
-<pre><code>  &lt;a href="slides/econ467/11-slides-travel-cost.html" class="paper-tag tag-journal" target="_blank"&gt;HTML&lt;/a&gt;
-&lt;/div&gt;</code></pre>
-</div></li>
-<li class="paper-item">
-<div class="paper-title">
-Lecture 12 — Contingent Valuation
-</div>
-<div class="paper-links">
-<pre><code>  &lt;a href="slides/econ467/12-slides-contingent-valuation.html" class="paper-tag tag-journal" target="_blank"&gt;HTML&lt;/a&gt;
-&lt;/div&gt;</code></pre>
-</div></li>
-<li class="paper-item">
-<div class="paper-title">
-Lecture 13 — Hedonics and Real Estate Markets
-</div>
-<div class="paper-links">
-<pre><code>  &lt;a href="slides/econ467/13-slides-hedonics.html" class="paper-tag tag-journal" target="_blank"&gt;HTML&lt;/a&gt;
-&lt;/div&gt;</code></pre>
-</div></li>
-<li class="paper-item">
-<div class="paper-title">
-Lecture 14 — Carbon Accounting and Offset Markets
-</div>
-<div class="paper-links">
-<pre><code>  &lt;a href="slides/econ467/14-slides-offsets.html" class="paper-tag tag-journal" target="_blank"&gt;HTML&lt;/a&gt;
-&lt;/div&gt;</code></pre>
-</div></li>
-<li class="paper-item">
-<div class="paper-title">
-Lecture 15 — Climate Risk and Financial Instruments
-</div>
-<div class="paper-links">
-<pre><code>  &lt;a href="slides/econ467/15-slides-climate-finance.html" class="paper-tag tag-journal" target="_blank"&gt;HTML&lt;/a&gt;
-&lt;/div&gt;</code></pre>
-</div></li>
-<li class="paper-item">
-<div class="paper-title">
-Lecture 16 — Pollution and Health
-</div>
-<div class="paper-links">
-<pre><code>  &lt;a href="slides/econ467/16-slides-health.html" class="paper-tag tag-journal" target="_blank"&gt;HTML&lt;/a&gt;
-&lt;/div&gt;</code></pre>
-</div></li>
-<li class="paper-item">
-<div class="paper-title">
-Lecture 17 — OLS / Regression
-</div>
-<div class="paper-links">
-<pre><code>  &lt;a href="slides/econ467/17-slides-econometrics.html" class="paper-tag tag-journal" target="_blank"&gt;HTML&lt;/a&gt;
-&lt;/div&gt;</code></pre>
-</div></li>
+
+  <li class="paper-item">
+    <div class="paper-title">Lecture 01 — Introduction to Environmental Economics</div>
+    <div class="paper-links">
+      <a href="slides/econ467/01-slides-intro.html" class="paper-tag tag-journal" target="_blank">HTML</a>
+    </div>
+  </li>
+
+  <li class="paper-item">
+    <div class="paper-title">Lecture 02 — Market Failures</div>
+    <div class="paper-links">
+      <a href="slides/econ467/02-slides-market-failures.html" class="paper-tag tag-journal" target="_blank">HTML</a>
+    </div>
+  </li>
+
+  <li class="paper-item">
+    <div class="paper-title">Lecture 03 — Coasean Bargaining</div>
+    <div class="paper-links">
+      <a href="slides/econ467/03-slides-coase.html" class="paper-tag tag-journal" target="_blank">HTML</a>
+    </div>
+  </li>
+
+  <li class="paper-item">
+    <div class="paper-title">Lecture 04 — Standards</div>
+    <div class="paper-links">
+      <a href="slides/econ467/04-slides-standards.html" class="paper-tag tag-journal" target="_blank">HTML</a>
+    </div>
+  </li>
+
+  <li class="paper-item">
+    <div class="paper-title">Lecture 05 — Taxes</div>
+    <div class="paper-links">
+      <a href="slides/econ467/05-slides-taxes.html" class="paper-tag tag-journal" target="_blank">HTML</a>
+    </div>
+  </li>
+
+  <li class="paper-item">
+    <div class="paper-title">Lecture 06 — Tradable Permits</div>
+    <div class="paper-links">
+      <a href="slides/econ467/06-slides-permits.html" class="paper-tag tag-journal" target="_blank">HTML</a>
+    </div>
+  </li>
+
+  <li class="paper-item">
+    <div class="paper-title">Lecture 07 — Policymaking Under Uncertainty</div>
+    <div class="paper-links">
+      <a href="slides/econ467/07-slides-uncertainty.html" class="paper-tag tag-journal" target="_blank">HTML</a>
+    </div>
+  </li>
+
+  <!-- SLIDES NOT YET RELEASED — move entries above this comment to release
+
+  <li class="paper-item">
+    <div class="paper-title">Lecture 08 — Multiple Market Failures and Second-Best Policies</div>
+    <div class="paper-links">
+      <a href="slides/econ467/08-slides-second-best.html" class="paper-tag tag-journal" target="_blank">HTML</a>
+    </div>
+  </li>
+
+  <li class="paper-item">
+    <div class="paper-title">Lecture 09 — Carbon Tariffs</div>
+    <div class="paper-links">
+      <a href="slides/econ467/09-slides-carbon-tariffs.html" class="paper-tag tag-journal" target="_blank">HTML</a>
+    </div>
+  </li>
+
+  <li class="paper-item">
+    <div class="paper-title">Lecture 10 — Discounting and Cost-Benefit Analysis</div>
+    <div class="paper-links">
+      <a href="slides/econ467/10-slides-discounting.html" class="paper-tag tag-journal" target="_blank">HTML</a>
+    </div>
+  </li>
+
+  <li class="paper-item">
+    <div class="paper-title">Lecture 11 — Travel Cost Method</div>
+    <div class="paper-links">
+      <a href="slides/econ467/11-slides-travel-cost.html" class="paper-tag tag-journal" target="_blank">HTML</a>
+    </div>
+  </li>
+
+  <li class="paper-item">
+    <div class="paper-title">Lecture 12 — Contingent Valuation</div>
+    <div class="paper-links">
+      <a href="slides/econ467/12-slides-contingent-valuation.html" class="paper-tag tag-journal" target="_blank">HTML</a>
+    </div>
+  </li>
+
+  <li class="paper-item">
+    <div class="paper-title">Lecture 13 — Hedonics and Real Estate Markets</div>
+    <div class="paper-links">
+      <a href="slides/econ467/13-slides-hedonics.html" class="paper-tag tag-journal" target="_blank">HTML</a>
+    </div>
+  </li>
+
+  <li class="paper-item">
+    <div class="paper-title">Lecture 14 — Carbon Accounting and Offset Markets</div>
+    <div class="paper-links">
+      <a href="slides/econ467/14-slides-offsets.html" class="paper-tag tag-journal" target="_blank">HTML</a>
+    </div>
+  </li>
+
+  <li class="paper-item">
+    <div class="paper-title">Lecture 15 — Climate Risk and Financial Instruments</div>
+    <div class="paper-links">
+      <a href="slides/econ467/15-slides-climate-finance.html" class="paper-tag tag-journal" target="_blank">HTML</a>
+    </div>
+  </li>
+
+  <li class="paper-item">
+    <div class="paper-title">Lecture 16 — Pollution and Health</div>
+    <div class="paper-links">
+      <a href="slides/econ467/16-slides-health.html" class="paper-tag tag-journal" target="_blank">HTML</a>
+    </div>
+  </li>
+
+  <li class="paper-item">
+    <div class="paper-title">Lecture 17 — OLS / Regression</div>
+    <div class="paper-links">
+      <a href="slides/econ467/17-slides-econometrics.html" class="paper-tag tag-journal" target="_blank">HTML</a>
+    </div>
+  </li>
+
+  END NOT YET RELEASED -->
+
 </ul>
 <hr>
-<section id="problem-sets" class="level3 section-heading">
-<h3 class="section-heading anchored" data-anchor-id="problem-sets">Problem Sets</h3>
-<p><em>Problem sets will be posted here.</em></p>
+</section>
+<section id="sample-midterms" class="level3 section-heading">
+<h3 class="section-heading anchored" data-anchor-id="sample-midterms">Sample Midterms</h3>
+<!-- Add sample midterm PDFs to website/assets/syllabi/ and add entries here:
+<ul class="paper-list">
+  <li class="paper-item">
+    <div class="paper-title">Sample Midterm 1</div>
+    <div class="paper-links">
+      <a href="../assets/syllabi/econ467_sample_midterm1_2026w.pdf" class="paper-tag tag-pdf" target="_blank">PDF</a>
+    </div>
+  </li>
+</ul>
+-->
+<p><em>Sample exams will be posted here before each midterm.</em></p>
 <hr>
 </section>
-<section id="announcements" class="level3 section-heading">
-<h3 class="section-heading anchored" data-anchor-id="announcements">Announcements</h3>
-<p><em>Check this page for updates throughout the semester.</em></p>
-<p>:::</p>
-
-
+<section id="in-class-poll" class="level3 section-heading">
+<h3 class="section-heading anchored" data-anchor-id="in-class-poll">In-Class Poll</h3>
+<p>
+  Used during lectures for in-class questions. Have your <strong>@ualberta.ca</strong> email ready.
+  A passcode will be shown on the projector when the poll is open.
+</p>
+<p>
+  <a href="https://polling-server-production-708e.up.railway.app" class="paper-tag tag-journal" target="_blank">Open Poll →</a>
+</p>
 </section>
-</section></section></main></div>
+</section>
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- <!-- /main -->
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";
@@ -731,7 +736,7 @@ Lecture 17 — OLS / Regression
     }
   });
   </script>
- <!-- /content -->
+</div> <!-- /content -->
 <footer class="footer">
   <div class="nav-footer">
     <div class="nav-footer-left">
